@@ -5,13 +5,15 @@
   "main": "index.js",
   "dependencies": {
     "apollo-server-express": "^2.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "graphql": "^15.4.0",
     "nodemon": "^2.0.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "author": "Adonys M",
   "license": "ISC"
