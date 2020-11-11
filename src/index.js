@@ -5,7 +5,6 @@ const helmet = require('helmet'); // Helmet es un package de seguridad que se im
 const cors = require('cors');
 const depthLimit = require('graphql-depth-limit');
 const { createComplexityLimitRule } = require('graphql-validation-complexity');
-
 require('dotenv').config();
 
 // Imports locales
